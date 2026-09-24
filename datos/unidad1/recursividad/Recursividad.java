@@ -7,7 +7,7 @@ public class Recursividad {
 		if(total <= 0)
 			return;
 		else{//Condicion recursiva o repetitiva
-			System.out.println("Hola Putito");
+			System.out.println("Hola ");
 			saludo(total - 1);
 		}
 	}
