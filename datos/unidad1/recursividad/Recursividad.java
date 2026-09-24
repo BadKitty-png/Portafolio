@@ -1,18 +1,20 @@
 package datos.unidad1.recursividad;
 
 public class Recursividad {
-		
 
-	public static void saludo(int total) {//Condicion base
-		if(total <= 0)
-			return;
-		else{//Condicion recursiva o repetitiva
-			System.out.println("Hola ");
-			saludo(total - 1);
-		}
-	}
+     public static void saludo(String name, int total) {
+         if (total <= 0) {
+            return;
+       }
 
-	public static void main(String[] a){
-		saludo(10);
-	}
+        // Acción
+        System.out.println("Hola: " + name);
+
+        // Llamada recursiva con contador decrementado
+        saludo(name, total - 1);
+    }
+
+    public static void main(String[] args) {
+        saludo("Jan", 10); 
+    }
 }
