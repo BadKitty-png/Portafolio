@@ -14,7 +14,13 @@ public class Recursividad {
         // Llamada recursiva con contador decrementado
         saludo(name, total - 1);
     }
-
+	/*
+	*Funcion que resaliza una cuenta regresvia 
+	*Valor entero 
+	*Gtid244
+	*Jan Carlo Martinez artinez 
+	*25/09/2026
+	*/
 	public static void cuentaRegresiva(int n) {
 		if(n < 1){
 			return;
