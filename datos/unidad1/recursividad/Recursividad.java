@@ -15,6 +15,6 @@ public class Recursividad {
     }
 
     public static void main(String[] args) {
-        saludo("Jan", 10); 
+        saludo("Jan", 100); 
     }
 }
